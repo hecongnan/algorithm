@@ -1,0 +1,20 @@
+# 忽略编译生成的可执行文件（适用于Windows、Linux、macOS）
+a.out
+*.exe
+*.out
+
+# 忽略目标文件
+*.o
+*.obj
+
+# 忽略编译过程中产生的中间文件
+*.lo
+*.so
+*.dll
+*.lib
+*.a
+
+# 忽略CMake等构建工具生成的文件（如果使用）
+build/
+cmake-build-*/
+Makefile
