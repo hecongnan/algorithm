@@ -30,7 +30,7 @@ public:
         if(isFull()){
             resize(arr.size() * 2);
         }
-        //start是闭区间，所以先左移，再右移
+        //start是闭区间，所以先左移，再赋值
         start = (start - 1 + arr.size()) % arr.size();
         arr[start] = val;
         count++;
