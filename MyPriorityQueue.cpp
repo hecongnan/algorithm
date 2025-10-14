@@ -37,9 +37,9 @@ class MyPriorityQueue
 
     int left(int node)
     {
-        return 2 * node +
-               1;
+        return 2 * node +1;
     }
+    
     int right(int node)
     {
         return 2 * node + 2;
